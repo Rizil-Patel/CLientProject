@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="dark:bg-slate-900 dark:text-white">
         <Routes>
-          <Route path="https://mygroup-7wjlm0omi-rizil-patels-projects.vercel.app//" element={<Home />} />
+          <Route path="https://mygroup-7wjlm0omi-rizil-patels-projects.vercel.app/" element={<Home />} />
           <Route
             path="/course"
             element={authUser ? <Courses /> : <Navigate to="/signup" />}
